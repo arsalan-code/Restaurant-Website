@@ -1,0 +1,76 @@
+
+@media (max-width:765px){
+
+    img
+    {
+        display: block;
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 330px){
+    .chefExpert .card .imgContainer{
+       left: -2px;
+   }
+}
+
+@media (max-width:999px){
+    .chefExpert .card
+    {
+        display: block;
+        margin: 6% 0;
+    }
+}
+
+@media (max-width:764px){
+    .head-content
+    {
+        display: block;
+        margin: 0 auto 30px;
+    }
+    
+ }
+@media (max-width:494px){
+    .head-content
+    {
+        
+        /* margin: 0 auto 70px; */
+    }
+    
+ }
+ 
+ @media (max-width:540px){
+    .header-page  img
+    {
+        margin-top: 20px;
+    }
+ }
+
+ @media (max-width:767px){
+    .about-us img
+    {
+        display: block;
+        margin: auto;
+    }
+ }
+
+ @media (max-width:767px)
+ {
+    .about-para
+    {
+        display: block;
+        margin: auto;
+      
+    }
+ }
+ @media (max-width:767px)
+ {
+    .head-content
+    {
+        display: block;
+        margin: auto;
+        width: 90%;
+      
+    }
+ }

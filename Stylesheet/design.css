@@ -1,0 +1,474 @@
+
+/* <........Google Font..> */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+/* CSS reset  */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/* .........Navbar................ */
+
+.header img
+{
+    height:30px;
+    width: 50px;
+    
+}
+.header
+{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+   
+ 
+}
+ 
+.nav-item .nav-link
+{
+     
+    font-size: 14px;
+    color: black;
+    transition: 0.4s ease;
+    margin: 0 8px;
+    font-weight: 500;
+}
+ 
+.nav-item .nav-link:hover
+{
+     color: #F99417;
+}
+ 
+.header span
+{
+    margin: 0 10px;
+}
+
+.header-page p
+{
+    width:80%;
+    text-align: justify;
+}
+
+.header-page span
+{
+    color: #F99417;
+    font-weight: 700;
+    font-size: 2.6rem;
+}
+
+.header-page h1
+{
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.header-page button
+{
+    padding: 6px 25px;
+    outline: none;
+    border: none;
+    font-weight: 400;
+}
+
+.header-page img
+{
+    height: 300px;
+}
+
+ 
+ /* <............About us............> */
+
+ .about-us
+ {
+    margin: 8% 0;
+   
+ }
+ .about-us img
+ {
+    height: 350px;
+    
+ }
+ .about-us p
+ {
+    width: 90%;
+    font-size: 14px;
+    text-align: justify;
+ }
+ .about-us button
+{
+    padding: 6px 25px;
+    outline: none;
+    border: none;
+    font-weight: 400;
+    color: white;
+}
+
+.about-us span
+{
+    color: #F99417;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.about-us h2
+{
+    
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 20px 0;
+}
+
+.about-us h4
+{
+    margin: 20px 0;
+}
+
+/* <.......Our Menu..............> */
+
+.our-menu img
+{
+width: 300px;
+height: 200px;
+transition: all .5s ease;
+object-fit: cover;
+}
+.our-menu .content button
+{
+    display: block;
+}
+.our-menu .content h3
+{
+    text-align: center;
+    color: #F99417;
+    letter-spacing: 1px;
+    margin: 5px 0;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+ .our-menu .content p
+{
+    text-align: justify;
+    font-size: 14px;
+    text-align-last: center;
+    width: 95%;
+    margin: 10px 0;
+
+}
+.our-menu .content h4
+{
+    text-align: center;
+}
+ .our-menu button
+ {
+    display: block;
+    margin: 20px auto;
+    padding: 8px 22px;
+    font-weight: 700;
+    font-size: 14px;
+     
+ }
+
+ .content span
+ {
+    color: #F99417;
+ 
+ }
+
+ .our-menu .icon
+ {
+    display: block;
+    margin: auto;
+    width: 80px;
+  
+ }
+ .our-menu span
+ {
+    color: #F99417;
+    font-weight: 700;
+ }
+ .our-menu img:hover
+ {
+    transform: scale(0.9);
+ }
+
+ /* <....Our Gallery......> */
+
+ .gallery span
+ {
+    color: #F99417;
+    font-weight: 700;
+    
+ }
+
+ .gallery h2
+ {
+    margin: 15px 0;
+ }
+
+ /* <.................Testimonial.....................> */
+ 
+.testimonial .container{
+    max-width: 950px;
+    margin-top: 4%;
+}
+.testimonial .card{
+    border-radius: 1rem;
+    box-shadow: 0px -10px 0px rgb(204, 248, 6);
+}
+@media(max-width:767px){
+    .card{
+        margin: 1rem 0.7rem 1rem;
+        max-width: 80vw;
+    }
+}
+.testimonial img{
+    width: 6.2rem;
+    border-radius: 5rem;
+    margin: 1.3rem auto 1rem auto;
+}
+.testimonial .col-md-4{
+    padding:0  0.5rem;
+}
+.card-title{
+    font-size: 1rem;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-family: 'IM Fell French Canon SC';
+}
+.card-text{
+    text-align: center;
+    font-size: 0.8rem;
+    color: rgb(82, 81, 81);
+    line-height: 1.4rem;
+}
+.footer{
+    border-top: none;
+    text-align: center;
+    line-height: 1.2rem;
+    padding: 2rem 0 1.4rem 0;
+    font-family: 'Varela Round';
+}
+#name{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+#position{
+    font-size: 0.7rem;
+}
+.testimonial a{
+    color: rgb(151, 248, 6);
+    font-weight: bold;
+}
+.testimonial a:hover{
+    color: rgb(151, 248, 6);
+}
+.card-image img:hover
+{
+   transform: translateY(-10px); 
+}
+.card-image img
+{
+    transition: all .4s ease-in-out;
+}
+
+.card-text span
+{
+    color: #F99417;
+}
+
+.testimonial h2
+{
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: 500;
+    font-size: 2rem;
+    
+}
+.testimonial .span1
+{
+    color: #F99417;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+/* <..............Order Page........./> */
+.order-page
+{
+    margin: 8% 0;
+    background-image: url('../Img/bg2.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+}
+.order-page img
+{
+    width: 500px;
+    height: 400px;
+   
+}
+
+ 
+form input
+{
+   /* width: 200px; */
+    margin: 10px;
+    padding: 2px 20px; 
+    width: 260px;
+    background-color: rgb(238, 228, 228);
+    outline: none;
+}
+
+.order-page span
+{
+    color: #F99417;
+    font-weight: 600;
+    font-size: 2.5rem;
+
+}
+
+.order-page button
+{
+    outline: none;
+    border: none;
+    padding: 8px 20px;
+    background-color: #F99417;
+    margin: 2% ;
+    display: block;
+    color: white;
+    font-weight: 700;
+    
+}
+
+.order-page h2
+{
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+/* <...chef........./> */
+
+.chefExpert
+{
+    margin-top: 10%;
+    
+}
+
+.chefExpert img
+{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    clip-path: circle();
+}
+
+ .chefExpert .card
+{
+    max-width: 290px;
+    height: 160px;
+    margin: 10px 10px;
+    padding: 20px 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    transition: 0.5s ease-in-out;
+}
+ .chefExpert .card:hover
+{
+    height: 250px;
+}
+ .chefExpert .card .imgContainer
+{
+    position: relative;
+    width:150px;
+    height:250px;
+    top:-70px;
+    left:3.2rem;
+    z-index: 1;
+    
+}
+
+.chefExpert h2
+{
+    text-align: center;
+    margin: 8% 0;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.chefExpert .span-3
+{
+    color: #F99417;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+ .chefExpert .card .imgContainer img
+{
+    max-width: 100%;
+}
+ .chefExpert .card .content
+{
+    position: relative;
+    padding: 10px 15px;
+    text-align: center;
+    color:#111;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s ease-in-out;
+}
+ .chefExpert .card:hover .content
+{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -70px;
+    transition-delay: 0.1s;
+}
+
+.chefExpert span
+{
+    color: black;
+    font-size: 18px;
+    margin: 0 10px;
+}
+.chefExpert p
+{
+    font-size: 13px;
+}
+.chefExpert h3
+{
+    color: #F99417;
+    font-weight: 700;
+}
+
+.chefExpert
+{
+    background-image: url('../Img/bg1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* <.........Scroll button...........> */
+.back-to-top {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    
+   display: none;
+   z-index: 99;
+   clip-path: circle();
+   background-color: rgba(255, 0, 0, 0.671);
+   color: white;
+    
+}
